@@ -1,5 +1,5 @@
 # cli-clock
-A terminal clock for the terminal, inspired by [tty-clock](https://github.com/xorg62/tty-clock).
+A terminal clock/stopwacth for the terminal, inspired by [tty-clock](https://github.com/xorg62/tty-clock).
 
 ## Installation
 Building from source
