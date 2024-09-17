@@ -33,7 +33,7 @@ struct Cli {
 
     /// Display seconds
     #[arg(short)]
-    seconts: bool,
+    seconds: bool,
 
     /// Change char in the clock
     #[arg(short = 'C', long, default_value = "█", value_name = "CHAR")]
