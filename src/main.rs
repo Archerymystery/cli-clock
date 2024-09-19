@@ -104,7 +104,7 @@ fn main() -> ExitCode {
         if cli.r {
             time_format = "%I:%M".to_string();
         }
-        if cli.seconts {
+        if cli.seconds {
             time_format.push_str(":%S")
         }
 
@@ -191,7 +191,7 @@ fn main() -> ExitCode {
         if let Ok(c) = rx.try_recv() {
             match c {
                 'q' | 'Q' => {
-                    write!(stdout, "{}", ToMainScreen).unwrap();
+                    write!(stdout, "{}{}", ToMainScreen, cursor::Show).unwrap();
                     stdout.flush().unwrap();
                     exit(0)
                 }
