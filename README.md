@@ -5,6 +5,7 @@ A terminal clock/stopwacth for the terminal, inspired by [tty-clock](https://git
 Building from source
 ```
 git clone https://github.com/Archerymystery/cli-clock.git
+cd cli-clock
 cargo build --release 
 ./target/release/cli-clock 
 ```
