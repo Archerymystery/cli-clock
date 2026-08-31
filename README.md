@@ -22,7 +22,7 @@ environment.systemPackages = [
 ```
 ## Usage
 ```
-cli clock/stopwacth
+cli clock/stopwatch
 
 Usage: cli-clock [OPTIONS]
 

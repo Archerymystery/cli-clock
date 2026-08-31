@@ -17,7 +17,7 @@ use termion::screen::{IntoAlternateScreen, ToMainScreen};
 use termion::terminal_size;
 use termion::{clear, color};
 #[derive(Parser)]
-#[command(version, about="cli clock/stopwacth",author="Archerymystery", long_about = None)]
+#[command(version, about="cli clock/stopwatch",author="Archerymystery", long_about = None)]
 struct Cli {
     /// Center a clock
     #[arg(short)]
